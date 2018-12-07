@@ -1,0 +1,96 @@
+.sendform {
+    &__wrap {
+        background-color: #000;
+        color: #fff;
+        max-width: 560px;
+        padding: 40px 45px;
+        position: relative;
+    }
+    h3 {
+        font-size: 36px;
+        line-height: 1.23;
+        font-weight: 700;
+        span {
+            color: rgb(227, 0, 0);
+            
+        }
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.55;
+        margin-bottom: 20px;
+    }
+    .form-line {
+        width: 100%;
+        input {
+            width: 100%;
+        }
+        .btn {
+            width: 100%;
+            border-radius: 15px;
+            margin-top: 20px;
+            &:hover {
+                background-color: #fff200;
+                color: #000;
+            }
+        }
+    }
+}
+.close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    &:hover {
+        opacity: .7;
+    }
+}
+.sendform {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(33, 33, 33, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.disabled {
+    display: none !important;
+}
+@keyframes fadeOutUp {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  }
+  
+  .fadeOutUp {
+    animation-name: fadeOutUp;
+  }
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInDown {
+    animation-name: fadeInDown;
+  }

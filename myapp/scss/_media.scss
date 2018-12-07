@@ -1,0 +1,140 @@
+@import "vars";
+
+@media only screen and (max-width: 1716px) {
+    .home {
+        .circle {
+            right: 0;
+            &--pulse {
+                right: 0;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1240px) {
+  .footer {
+    .form-line {
+        width: 66%;
+    }
+    .phone {
+        width: 31%;
+    }
+  }
+}
+@media only screen and (max-width: 979px) {
+    .home {
+        overflow-x: hidden;
+        .wrap {
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 40px;
+        }
+        .side {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        .subtitle {
+            max-width: none;
+        }
+        .circle {
+            right: 100px;
+            &--pulse {
+                right: 100px;
+            }
+        }
+    }
+    .line .wrap {
+        font-size: 27px;
+    }
+    .services {
+        overflow-x: hidden;
+        padding: 40px 20px;
+        &__item {
+            flex-wrap: wrap;
+            margin-bottom: 0;
+        }
+        &__block {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        &__img {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    }
+    .footer {
+        padding: 50px 20px;
+        &__title {
+            font-size: 31px;
+            margin-bottom: 31px;
+        }
+        .btn {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+    .agree-line {
+        font-size: 13px;
+
+    }
+    .bg-anim {
+        font-size: 101px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .footer {
+        .phone {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+            input {
+                width: 80%;
+            }
+        }
+        .form-line {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .sendform h3 {
+        font-size: 24px;
+    }
+    .sendform__text {
+        font-size: 14px;
+    }
+    .sendform__wrap {
+        padding: 24px 30px;
+    }
+
+}
+@media only screen and (max-width: 479px) {
+    .price {
+        font-size: 42px;
+    }
+    .services__title {
+        font-size: 30px;
+    }
+    .services__value {
+        font-size: 17px;
+    }
+    .line .wrap {
+        font-size: 26px;
+        padding: 0 20px;
+    }
+    .footer__title {
+        font-size: 25px
+    }
+    .footer__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .footer .btn {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}

@@ -1,0 +1,5 @@
+@import "_mixins/font-face";
+
+@include font-face("MuseoCyrl", "../fonts/MuseoCyrl-500/MuseoCyrl-500", 500);
+@include font-face("MuseoCyrl", "../fonts/MuseoCyrl-700/MuseoCyrl-700", 700);
+@include font-face("MuseoCyrl", "../fonts/MuseoCyrl-900/MuseoCyrl-900", 900);

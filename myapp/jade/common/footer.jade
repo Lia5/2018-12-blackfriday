@@ -1,0 +1,14 @@
+footer.footer
+    .wrap
+        .footer__title Узнайте сколько продаж мы приносим нашим клиентам ежемесячно
+        .footer__text Заполните форму ниже и наш эксперт покажет аналитики продаж наших клиентов в вашей нише
+        form.footer__form(action="#")   
+            .form-line.phone
+                input#phone(type='text', name='phone', placeholder='Ваш телефон', required='')
+            .form-line
+                button.btn(type='submit') Получить индивидуальный просчет
+            .agree-line
+                input#agree(type='checkbox', checked='', disabled)
+                label(for='agree') Я даю согласие на обработку моих персональных данных
+
+script(src="js/common.js")

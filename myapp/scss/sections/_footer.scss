@@ -1,0 +1,56 @@
+.footer {
+    padding: 50px 130px;
+    background-color: #000;
+    color: #fff;
+    .wrap {
+
+    }
+    &__title {
+        font-size: 46px;
+        text-align: center;
+        line-height: 1.35;
+        font-weight: 700;
+        margin-bottom: 45px;
+    }
+    &__text {
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        margin-bottom: 42px;
+        text-align: center;
+    }
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .btn {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .phone {
+        width: 20%;
+        text-align: right;
+        margin-right: 15px;
+    }
+}
+.phone {
+    input {
+        border: none;
+        color: #fff;
+        border-bottom: 3px solid #ffffff;
+        background-color: transparent;
+        padding-bottom: 20px;
+    }
+}
+.form-line {
+    width: 50%;
+
+}
+.agree-line {
+    margin-top: 20px;
+}
